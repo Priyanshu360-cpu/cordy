@@ -4,7 +4,6 @@ const {
     Client
 } = require("discord.js");
 const Discord = require("discord.js");
-const { readdirSync } = require("fs");
 const math = require("mathjs");
 const { MessageActionRow,  MessageAttachment, MessageButton,  MessageSelectMenu } = require('discord.js');
 const { replaceResultTransformer } = require("common-tags");
