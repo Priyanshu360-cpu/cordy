@@ -12,9 +12,6 @@
 		"type": "git",
 		"url": "https://github.com/Priyanshu360-cpu/cordy"
 	},
-    "publishConfig": {
-        "registry":"https://npm.pkg.github.com"
-      },
 	"dependencies": {
 		"ms": "^2.1.3",
 		"node-fetch": "2.6.1",
