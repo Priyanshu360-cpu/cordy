@@ -1,4 +1,4 @@
-module.exports = async function stealSticker(message, args, options = []) {
+module.exports = async (message, args, options = [])=>{
     const Discord = require('discord.js')
     if (!message.member.permissions.has('MANAGE_EMOJIS_AND_STICKERS'))
     return message.channel.send(
