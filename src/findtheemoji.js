@@ -6,8 +6,7 @@ const {
 const Discord = require("discord.js");
 const math = require("mathjs");
 const { MessageActionRow,  MessageAttachment, MessageButton,  MessageSelectMenu } = require('discord.js');
-const { replaceResultTransformer } = require("common-tags");
-module.exports = async (message, args, client, prefix) => {
+module.exports = async (message, args, client) => {
         let a =  client.emojis.cache.get(client.emojis.cache.map(x=>x.id)[Math.floor(Math.random() * client.emojis.cache.map(x=>x.id).length)]);
      let b = math.floor(math.random() * 3)+","+math.floor(math.random() * 3)
      
