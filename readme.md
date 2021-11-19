@@ -1,5 +1,5 @@
 # Get-Started
-Instal Cordy
+Install Cordy
  ```
 npm i cordy
 ```
