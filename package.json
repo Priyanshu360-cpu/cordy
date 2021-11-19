@@ -6,11 +6,11 @@
 	"keywords": [
 		"discord",
 		"discord.js",
-        "nodie"
+        "cordy"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Priyanshu360-cpu/nodie"
+		"url": "https://github.com/Priyanshu360-cpu/cordy"
 	},
 	"dependencies": {
 		"ms": "^2.1.3",
