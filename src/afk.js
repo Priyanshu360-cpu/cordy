@@ -57,4 +57,4 @@ module.exports = async (message, args, client) =>{
     catch(err){
         console.log("Error Caught")
     }
-    }
+}
