@@ -1,5 +1,4 @@
 module.exports = async (message, args, client,db) =>{
-    
     const {Collection, MessageEmbed} = require('discord.js')
     try{
     if(!client.afk) client.afk = new Collection()
@@ -20,7 +19,7 @@ module.exports = async (message, args, client,db) =>{
             a.setColor("RED")
             message.channel.send({embeds:[a]})
             client.afk.set(`AFK_${message.guild.id}#${message.author.id}`,"true")
-            client.afk.set(`AFKT_${message.guild.id}#${message.author.id}`,`${Date.now()}`)
+            client.afk.set(`AFKT_${message.guild.id}#${message.author.id}`,Date.now())
             client.afk.set(`AFKM_${message.guild.id}#${message.author.id}`,`${args}`)
         }
     }
@@ -46,7 +45,7 @@ module.exports = async (message, args, client,db) =>{
         if(d == "true"){
             let e = new MessageEmbed()
             e.setTitle('Afk User')
-            e.setDescription(`User afk since <t:${client.afk.get(`AFKT_${message.guild.id}#${message.mentions.users.first().id}`)}:F>\nMessage-${client.afk.get(`AFKM_${message.guild.id}#${message.mentions.users.first().id}`)}`)
+            e.setDescription(`User afk since <t:${Math.trunc(Number((client.afk.get(`AFKT_${message.guild.id}#${message.mentions.users.first().id}`)/1000)))}:R>\nMessage-${client.afk.get(`AFKM_${message.guild.id}#${message.mentions.users.first().id}`)}`)
             e.setFooter("npm i cordy")
             e.setColor("FFCBCB")
             message.reply({embeds:[e]})
@@ -59,4 +58,3 @@ module.exports = async (message, args, client,db) =>{
         console.log("Error Caught")
     }
     }
-    
