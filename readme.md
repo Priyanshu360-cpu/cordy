@@ -3,7 +3,7 @@ Install Cordy
  ```
 npm i cordy
 ```
-Cordy Version - 1.0.1
+Cordy Version - 1.0.2
 # How To Use
 ```
 const game = require("cordy")
