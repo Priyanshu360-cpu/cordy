@@ -19,6 +19,7 @@ cordy.starter(require('"token",{
 # How to use Cordy in your Bot?
 read readme folders to get detailed usage of each command
 heres Some example: 
+
 •
 ```
 const cordy = require('cordy')
