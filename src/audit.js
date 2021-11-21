@@ -21,7 +21,7 @@ const y = a.replace("null?size=2048", "https://cdn.discordapp.com/avatars/741280
        .setThumbnail(y)
        .setColor("FFCBCB");
 
-     var pageMovingButttons1 = new MessageButton()
+     var Butttons1 = new MessageButton()
        .setCustomId(`forward_buttton_embed`)
 
        .setEmoji("▶️")
@@ -33,7 +33,7 @@ const y = a.replace("null?size=2048", "https://cdn.discordapp.com/avatars/741280
        .setEmoji("🗑️")
        .setStyle("DANGER");
 
-     var pageMovingButttons2 = new MessageButton()
+     var Butttons2 = new MessageButton()
        .setCustomId(`back_buttton_embed`)
 
        .setEmoji("◀️")
@@ -41,12 +41,12 @@ const y = a.replace("null?size=2048", "https://cdn.discordapp.com/avatars/741280
 
 
 
-       var pageMovingButttons = new MessageActionRow().addComponents([
-         pageMovingButttons2,
+       var Butttons = new MessageActionRow().addComponents([
+        Butttons2,
          deleteBtn,
-         pageMovingButttons1
+         Butttons1
        ]);
-       var m = await message.channel.send({embeds: [ce], components: [pageMovingButttons]})
+       var m = await message.channel.send({embeds: [ce], components: [Butttons]})
        const collector = message.channel.createMessageComponentCollector({time: 30000});
        collector.on('collect', async (b) => {
          if (b.message.id == m.id && b.user.id == message.author.id) {
@@ -80,7 +80,7 @@ const y = a.replace("null?size=2048", "https://cdn.discordapp.com/avatars/741280
                  .setColor("FFCBCB");
                m.edit({
                  embeds: [ee],
-                 components: [pageMovingButttons]
+                 components: [Butttons]
                });
               }
               else{
@@ -108,7 +108,7 @@ const y = a.replace("null?size=2048", "https://cdn.discordapp.com/avatars/741280
              .setColor("FFCBCB");
            m.edit({
              embeds: [de],
-             components: [pageMovingButttons]
+             components: [Butttons]
            });
            } else if (b.customId == "delette_embed") {
              b.message.delete();
