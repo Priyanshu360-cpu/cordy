@@ -18,7 +18,7 @@ cordy.starter("token",{
 <img src = "https://media.discordapp.net/attachments/750089917501014036/911954534862049280/unknown.png"></img>
 
 # How to use Cordy in your Bot?
-read readme folders to get detailed usage of each command
+Read [Readme](https://github.com/Priyanshu360-cpu/cordy/tree/master/readme) folders to get detailed usage of each command
 heres Some example: 
 
 **Chatbot**
