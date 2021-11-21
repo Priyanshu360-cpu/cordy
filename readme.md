@@ -31,6 +31,8 @@ cordy.chatbot(message,args,client,{
 •
 ```
 const cordy = require('cordy')
- cordy.iphone(message,args,client)
+ cordy.automeme(message,args,client,{
+ timer:args[0]})
  ```
+<img src = "https://media.discordapp.net/attachments/750089917501014036/911952142531719188/Screenshot_20211121-174103.jpg"></img>
 **Make sure this codes are in you message create event**
