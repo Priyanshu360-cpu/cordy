@@ -9,7 +9,7 @@ Cordy is a npm package which eases your discord bot making
 # To Start your bot easily 
 ```
 const cordy = require('cordy')
-cordy.starter(require('"token",{
+cordy.starter("token",{
     status:"Cordy Goes Broom , Testing",
     statusType:"PLAYING",
     statusVisibility:"DND"
@@ -29,6 +29,7 @@ cordy.chatbot(message,args,client,{
 })
 ```
 <img src = "https://media.discordapp.net/attachments/750089917501014036/911951276672188426/Screenshot_20211121-173816.jpg"></img>
+
 **Automeme**
 ```
 const cordy = require('cordy')
