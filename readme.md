@@ -29,7 +29,7 @@ cordy.chatbot(message,args,client,{
     owner:"Priyanshu"
 })
 ```
-<img src = "https://media.discordapp.net/attachments/750089917501014036/911951276672188426/Screenshot_20211121-173816.jpg"></img>
+<img src = "https://media.discordapp.net/attachments/750089917501014036/911955270530379796/unknown.png"></img>
 
 **Automeme**
 ```
@@ -37,7 +37,14 @@ const cordy = require('cordy')
  cordy.automeme(message,args,client,{
  timer:args[0]})
  ```
-<img src = "https://media.discordapp.net/attachments/750089917501014036/911952142531719188/Screenshot_20211121-174103.jpg"></img>
+<img src = "https://media.discordapp.net/attachments/750089917501014036/911955587993042954/unknown.png"></img>
+
+**FindTheEmoji**
+```
+const cordy = require('cordy')
+cordy.emoji(message,args,client)
+```
+<img src = "https://media.discordapp.net/attachments/750089917501014036/911956598669316136/unknown.png"></img>
 
 **Make sure this codes are in you message create event**
 
