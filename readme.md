@@ -15,6 +15,7 @@ cordy.starter("token",{
     statusVisibility:"DND"
 })
 ```
+<img src = "https://media.discordapp.net/attachments/750089917501014036/911954534862049280/unknown.png"></img>
 
 # How to use Cordy in your Bot?
 read readme folders to get detailed usage of each command
