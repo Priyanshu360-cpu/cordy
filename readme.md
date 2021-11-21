@@ -18,14 +18,14 @@ cordy.starter(require('"token",{
 
 # How to use Cordy in your Bot?
 read readme folders to get detailed usage of each command
-heres Some example:
-1```
+heres Some example: 
+1 ```
 const cordy = require('cordy')
 cordy.chatbot(message,args,client,{
     owner:"Priyanshu"
 })
 ```
-2```
+2 ```
 const cordy = require('cordy')
  cordy.iphone(message,args,client)
  ```
