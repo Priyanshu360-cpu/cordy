@@ -5,7 +5,7 @@ npm i cordy
 ```
 Cordy Version - 1.0.3
 # what is Cordy?
-Cordy is a npm package which eases your discord bot making
+Cordy is an open soruce npm package which eases your discord bot making
 # To Start your bot easily 
 ```
 const cordy = require('cordy')
@@ -37,6 +37,7 @@ const cordy = require('cordy')
  timer:args[0]})
  ```
 <img src = "https://media.discordapp.net/attachments/750089917501014036/911952142531719188/Screenshot_20211121-174103.jpg"></img>
+
 **Make sure this codes are in you message create event**
 
 *Made with ❤️ by Priyanshu*
