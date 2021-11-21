@@ -27,6 +27,7 @@ cordy.chatbot(message,args,client,{
     owner:"Priyanshu"
 })
 ```
+<img src = "https://media.discordapp.net/attachments/750089917501014036/911951276672188426/Screenshot_20211121-173816.jpg"></img>
 •
 ```
 const cordy = require('cordy')
