@@ -131,7 +131,7 @@ collector.on('collect', async (b) => {
   if (b.message.id == m.id && b.user.id == message.author.id) {
     if (b.user.id !== message.author.id)
     return b.reply({
-      content: "This Page wasnt created by you",
+      content: "You didnt create this Page",
       ephemeral: true
     });
     if(b.customId == "true"){

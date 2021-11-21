@@ -23,7 +23,6 @@ const y = a.replace("null?size=2048", "https://cdn.discordapp.com/avatars/741280
 
      var Butttons1 = new MessageButton()
        .setCustomId(`forward_buttton_embed`)
-
        .setEmoji("▶️")
        .setStyle("SUCCESS");
 
@@ -52,7 +51,7 @@ const y = a.replace("null?size=2048", "https://cdn.discordapp.com/avatars/741280
          if (b.message.id == m.id && b.user.id == message.author.id) {
            if (b.user.id !== message.author.id)
            return b.reply({
-             content: "This Page wasnt created by you",
+             content: "You didnt create this Page",
              ephemeral: true
            });
            b.deferUpdate();
