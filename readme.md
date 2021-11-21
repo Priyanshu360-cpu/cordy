@@ -24,6 +24,7 @@ heres Some example:
 ```
 const cordy = require('cordy')
 cordy.chatbot(message,args,client,{
+    color:"FFCBCB"
     owner:"Priyanshu"
 })
 ```
@@ -36,4 +37,5 @@ const cordy = require('cordy')
  ```
 <img src = "https://media.discordapp.net/attachments/750089917501014036/911952142531719188/Screenshot_20211121-174103.jpg"></img>
 **Make sure this codes are in you message create event**
-Made with ❤️ by Priyanshu
+
+*Made with ❤️ by Priyanshu*
