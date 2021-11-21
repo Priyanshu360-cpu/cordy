@@ -49,5 +49,8 @@ cordy.emoji(message,args,client)
 **Make sure this codes are in you message create event**
 
 *Made with ❤️ by Priyanshu*
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> d753a4963c3921337d9175d7f3ec334d9ac8418e

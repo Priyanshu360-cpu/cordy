@@ -23,7 +23,7 @@ module.exports= async(message,args,client,options)=>{
         response = await axios.get(url);
         data = response.data;
     } catch (e) {
-        return message.reply(`An error occured!`)
+        return Console.log(`An error occured!`)
     }
     let b = new MessageEmbed()
     b.setDescription(`**[${data.title}](${data.url})**`)
