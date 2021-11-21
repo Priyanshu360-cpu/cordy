@@ -20,7 +20,7 @@ cordy.starter(require('"token",{
 read readme folders to get detailed usage of each command
 heres Some example: 
 
-•
+**Chatbot**
 ```
 const cordy = require('cordy')
 cordy.chatbot(message,args,client,{
@@ -28,7 +28,7 @@ cordy.chatbot(message,args,client,{
 })
 ```
 <img src = "https://media.discordapp.net/attachments/750089917501014036/911951276672188426/Screenshot_20211121-173816.jpg"></img>
-•
+**Automeme**
 ```
 const cordy = require('cordy')
  cordy.automeme(message,args,client,{
@@ -36,3 +36,4 @@ const cordy = require('cordy')
  ```
 <img src = "https://media.discordapp.net/attachments/750089917501014036/911952142531719188/Screenshot_20211121-174103.jpg"></img>
 **Make sure this codes are in you message create event**
+Made with ❤️ by Priyanshu
