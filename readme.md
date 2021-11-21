@@ -25,7 +25,7 @@ heres Some example:
 ```
 const cordy = require('cordy')
 cordy.chatbot(message,args,client,{
-    color:"FFCBCB"
+    color:"FFCBCB",
     owner:"Priyanshu"
 })
 ```
