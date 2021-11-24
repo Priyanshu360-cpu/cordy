@@ -1,4 +1,4 @@
-module.exports = async(token,option) => {
+module.exports = async function starter(token,option){
     const { Client, Collection, Intents } = require("discord.js");
     const { MessageActionRow,  MessageAttachment, MessageButton,  MessageSelectMenu } = require('discord.js');
     const client = new Client({

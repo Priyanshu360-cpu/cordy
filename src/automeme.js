@@ -1,5 +1,5 @@
 const {Collection, MessageEmbed, MessageAttachment} = require('discord.js')
-module.exports= async(message,args,client,options)=>{
+module.exports= async function automeme(message,args,client,options){
     if(!client.memery) client.memery = new Collection()
     if(client.memery.get(`M_${message.guild.id}`) == "true"){
         message.channel.send("Deactivated Automeme command")

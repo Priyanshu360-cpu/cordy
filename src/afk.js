@@ -1,4 +1,4 @@
-module.exports = async (message, args, client) =>{
+module.exports = async function afk(message, args, client){
     const {Collection, MessageEmbed} = require('discord.js')
     try{
     if(!client.afk) client.afk = new Collection()

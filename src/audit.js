@@ -1,5 +1,5 @@
 
-module.exports = async (message, args, client) => {
+module.exports = async function audit(message, args, client){
        var u = 5;
        const a = message.guild.iconURL()+"?size=2048"
 const y = a.replace("null?size=2048", "https://cdn.discordapp.com/avatars/741280410180386947/97ddc40395dfa5312cdbf02f4da07d7a.webp?size=2048")

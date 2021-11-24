@@ -1,13 +1,18 @@
 {
 	"name": "cordy",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": " A package for discord bots",
 	"main": "index.js",
 	"typings": "index.d.ts",
 	"keywords": [
 		"discord",
 		"discord.js",
-        "cordy"
+        "cordy",
+		"discordbot",
+		"easycoding",
+		"javascript",
+		"Nodejs",
+		"TypeScript"
 	],
 	"repository": {
 		"type": "git",

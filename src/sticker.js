@@ -1,4 +1,4 @@
-module.exports = async (message, args,client) => {
+module.exports = async function sticker(message,args,client){
     const Discord = require('discord.js')
     if (!message.member.permissions.has('MANAGE_EMOJIS_AND_STICKERS'))
     return message.channel.send(

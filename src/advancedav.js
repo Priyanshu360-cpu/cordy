@@ -1,5 +1,5 @@
 
-module.exports = async (message, args, client) => {
+module.exports = async function advancedav(message, args, client){
     
     const { MessageActionRow,  MessageAttachment, MessageButton,  MessageSelectMenu } = require('discord.js');
             const {

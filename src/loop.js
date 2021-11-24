@@ -1,6 +1,6 @@
 const {Collection, MessageEmbed} = require('discord.js')
 
-module.exports = async(message,args,client,options)=>{
+module.exports = async function loop(message,args,client,options){
     if(!client.loop) client.loop = new Collection()
     let a = new MessageEmbed()
     a.setTitle(options.title||"Title")

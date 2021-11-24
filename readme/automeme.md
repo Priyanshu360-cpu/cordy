@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.automeme(message,args,client)
+cordy.automeme(message,args,client,{timer:number})
 ```
 # Usage
 ```

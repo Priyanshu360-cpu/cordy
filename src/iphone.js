@@ -1,4 +1,4 @@
-module.exports = async (message, args, client) => {
+module.exports = async function iphone(message, args, client){
     const axios = require('axios');
       const url = 'https://shot-on-iphone.studio/api/video';
       let response, data;

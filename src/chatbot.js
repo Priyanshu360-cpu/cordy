@@ -1,8 +1,10 @@
-module.exports = async(message,args,client,options) =>{
+module.exports = async function chatbot (message,args,client,options){
     const {Collection} = require('discord.js')
     const axios = require("axios")
     const {MessageEmbed} = require("discord.js");
     try{
+        if(!options.owner)options.owner = "Priyanshu";
+        if(options.color)options.color = "FFCBCB";
     if(!client.chatbot) client.chatbot = new Collection()
     let a = client.chatbot.get(`C_${message.guild.id}`)
     if(a == "true"){
