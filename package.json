@@ -3,6 +3,7 @@
 	"version": "1.0.3",
 	"description": " A package for discord bots",
 	"main": "index.js",
+	"typings": "index.d.ts",
 	"keywords": [
 		"discord",
 		"discord.js",
