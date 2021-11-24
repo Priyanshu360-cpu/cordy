@@ -5,6 +5,6 @@ cordy.snipe(message,args,client)
 ```
 # Usage
 ```
-used to snipe any Message In the Guild
+<prefix>commandname
 ```
-**Used to view song detail**
+**used to snipe any Message In the Guild**
