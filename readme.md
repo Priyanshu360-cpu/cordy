@@ -3,7 +3,7 @@ Install Cordy
  ```
 npm i cordy
 ```
-Cordy Version - 1.0.3
+Cordy Version - 1.0.4
 # what is Cordy?
 Cordy is an open soruce npm package which eases your discord bot making
 # To Start your bot easily 
@@ -46,6 +46,6 @@ cordy.emoji(message,args,client)
 ```
 <img src = "https://media.discordapp.net/attachments/750089917501014036/911956598669316136/unknown.png"></img>
 
-**Make sure this codes are in you message create event**
+**Make sure these codes are in your message create event**
 
 *Made with ❤️ by Priyanshu*
