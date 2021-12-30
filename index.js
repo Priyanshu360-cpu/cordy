@@ -15,7 +15,7 @@ class Fun{
         this.snipe = require('./src/snipe')
 }
 } 
-class lavalink extends Fun{
+class lavalinkmusic extends Fun{
     constructor(){
         super();
         this.lavalink = require('./src/lavalink')
@@ -24,7 +24,7 @@ class lavalink extends Fun{
         this.autoplay = require('./src/autoplay')
     }
 }
-class Cordy extends lavalink{
+class Cordy extends lavalinkmusic{
     constructor(){
         super();
         this.eval = require("./src/eval")
