@@ -3,7 +3,7 @@
 const cordy = require('cordy')
 new cordy().lavalink(client,
 {
-     host:"hosturl";
+    host:"hosturl";
     port:port_number;
     password:"lavalinkpassword";
     identifier:"identifier for ur host";
