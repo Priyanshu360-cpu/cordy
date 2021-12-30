@@ -9,7 +9,7 @@ Cordy is an open soruce npm package which eases your discord bot making
 # To Start your bot easily 
 ```
 const Hewo = require("cordy")
-new Hewo().starter(require("./package.json").dependencies.token,{activity:[{
+new Hewo().starter("token",{activity:[{
     status:"Cordy Goes Broom",
     statusType:"PLAYING",
     statusVisibility:"DND"}
@@ -19,7 +19,7 @@ new Hewo().starter(require("./package.json").dependencies.token,{activity:[{
 # Multiple Status 
 ```
 const Hewo = require("cordy")
-new Hewo().starter(require("./package.json").dependencies.token,{activity:[{
+new Hewo().starter("token",{activity:[{
     status:"Cordy Goes Broom",
     statusType:"PLAYING",
     statusVisibility:"DND"},
