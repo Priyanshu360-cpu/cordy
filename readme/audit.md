@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.audit(message,args,client)
+new cordy().audit(message,args,client)
 ```
 # Usage
 ```

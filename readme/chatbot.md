@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.chatbot(message,args,client,{color:string})
+new cordy().chatbot(message,args,client,{color:string})
 ```
 # Usage
 ```

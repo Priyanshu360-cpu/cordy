@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.loop(message,args,client,
+new cordy().loop(message,args,client,
 {
     title:"A title",
     description: "A description",

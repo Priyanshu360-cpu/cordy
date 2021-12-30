@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.emoji(message,args,client)
+new cordy().emoji(message,args,client)
 ```
 # Usage
 ```

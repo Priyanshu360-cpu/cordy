@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.afk(message,args,client)
+new cordy().afk(message,args,client)
 ```
 # Usage
 ```

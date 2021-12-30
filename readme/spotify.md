@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.spotify(message,args,client)
+new cordy().spotify(message,args,client)
 ```
 # Usage
 ```

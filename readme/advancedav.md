@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.avatar(message,args,client)
+new cordy().avatar(message,args,client)
 ```
 # Usage
 ```

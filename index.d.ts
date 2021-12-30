@@ -79,3 +79,31 @@ export declare function snipe(
     client:Client,
     args?:string[]
 )
+export declare function autoplay(
+    message:Message
+)
+export type lavaopt = {
+    host?:string;
+    port?:number;
+    password?:string;
+    identifier?:string;
+    retryAmount?:number;
+    retryDelay?:number;
+    secure?:boolean;
+    spotifyid?:string;
+    spotifysecret?:string
+} 
+export declare function lavalink(
+    option:lavaopt,
+    client?:Client
+)
+export declare function play(
+    message:Message
+)
+export declare function stop(
+    message:Message
+)
+export declare function eval(
+    message:Message,
+    args?:string[]
+)

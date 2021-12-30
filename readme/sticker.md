@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.sticker(message,args,client)
+new cordy().sticker(message,args,client)
 ```
 # Usage
 ```

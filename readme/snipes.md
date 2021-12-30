@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.snipe(message,args,client)
+new cordy().snipe(message,args,client)
 ```
 # Usage
 ```

@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.starter("token",{
+new cordy().starter("token",{
     status:"Cordy Goes Broom , Testing",
     statusType:"PLAYING",
     statusVisibility:"DND"

@@ -1,7 +1,7 @@
 # Code
 ```
 const cordy = require('cordy')
-cordy.shotoniphone(message,args,client)
+new cordy().shotoniphone(message,args,client)
 ```
 # Usage
 ```
