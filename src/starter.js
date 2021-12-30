@@ -12,20 +12,25 @@ module.exports = async function starter(token,option){
      });
      client.on('ready',async => {
         let statuses = []
-        if(!option.status){statuses.push["Made with Cody"]}
+        if(!option.activity){statuses.push[{
+            status:"Made with Cordy <3",
+            statusType:"PLAYING",
+            statusVisibility:"DND"}]}
         else{
-        for (let I = 0;I<option.status.split(",").length;I++)
+        for (let I = 0;I<option.activity.length;I++)
         {
-            statuses.push(option.status.split(",")[I])
+            statuses.push(option.activity[I])
         }
     }
+    let statuso = statuses[Math.floor(Math.random()*statuses.length)];
         setInterval(function() {
-              let status = statuses[Math.floor(Math.random()*statuses.length)];
-              client.user.setActivity(status, {type: option.statusType});
-          }, 10000)
-         console.log(`Ready on ${client.user.username} with Statuses ${option.status}, types ${option.statusType} and Visibility ${option.statusVisibility}`)
+            let status = statuses[Math.floor(Math.random()*statuses.length)];  
+              client.user.setActivity(status.status, {type: status.statusType}, status.statusVisibility);
+          }, option.timer)
+         console.log(`Ready on ${client.user.username} with Statuses ${statuso.status}, types ${statuso.statusType} and Visibility ${statuso.statusVisibility}`)
     })
      client.login(token);
      module.exports = client;
+     
      
 }
