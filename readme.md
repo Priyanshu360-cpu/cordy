@@ -34,7 +34,23 @@ new Cordy().starter("token",{activity:[{
 ],timer:5000});
 
 ```
-<img src = "https://cdn.discordapp.com/attachments/921847291659305020/926109508483297320/unknown.png"></img>
+<img src = "https://cdn.discordapp.com/attachments/921847291659305020/926114845420576798/unknown.png"></img>
+
+# Lavalink Made Easy
+```
+ const Cordy = require("cordy")
+new Cordy().lavalink(client,{
+    host:"hosturl";
+    port:port_number;
+    password:"lavalinkpassword";
+    identifier:"identifier for ur host";
+    retryAmount:number;
+    retryDelay:delay_number;
+    secure:boolean;
+    spotifyid:"spotifyid";
+    spotifysecret:"spotifysecret";
+})
+```
 
 # How to use Cordy in your Bot?
 Read [Readme](https://github.com/Priyanshu360-cpu/cordy/tree/master/readme) folders to get detailed usage of each command
